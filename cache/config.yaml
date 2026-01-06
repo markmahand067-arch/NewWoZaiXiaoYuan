@@ -1,5 +1,5 @@
-mail_address: 19968419437@163.com  # 邮箱地址，如不使用填空
-password: QPwinxktVwavJMsk # 邮箱授权码，如不使用填空
+mail_address: None  # 邮箱地址，
+password: None # 邮箱授权码，如
 host: smtp@163.com # 邮箱SMTP地址
 school: 昆明理工大学 # 填写对应学校名称
 tencent_map: Q7FBZ-LQJCL-ITXP6-EGHTG-AT4X5-WDFRP # 填写腾讯地图API KEY
@@ -8,11 +8,11 @@ tencent_map: Q7FBZ-LQJCL-ITXP6-EGHTG-AT4X5-WDFRP # 填写腾讯地图API KEY
 
 username: 19968419437 # 我在校园用户名
 password: 202211017204 # 我在校园密码
-receive: 19968419437@163.com # 接受邮箱地址，如不使用填空
+receive: None # 接受邮箱地址，如
 sct_ftqq: None # server酱地址，如不使用填空
 blue_sign: yes # 是否进行蓝牙打卡，no
 dorm_sign: yes # 是否进行归寝打卡
-location: 云南省昆明市呈贡区吴家营街道樱花大道 # 打卡地址，省->区(市)->市->街道->路
+location: 云南省昆明市呈贡区景明南路昆明理工大学呈贡校区怡园学生公寓3栋 # 打卡
 
 --- # 多用户使用横线隔开
 
