@@ -252,7 +252,7 @@ def Punch(headers, punchData, username, id, signId, receive=False, sct_ftqq=Fals
     res = requests.post(url, data=json.dumps(punchData), headers=headers, params=params)
     txt = json.loads(res.text)
     if txt['code'] == 0:
-        print(f"{username}打卡成功！\n")
+        print(f"{username}归寝打卡成功！\n")
         MsgSend(mails, "打卡成功！", f"{username}归寝打卡成功！", receive, sct_ftqq)
         return True
     else:
@@ -279,6 +279,7 @@ def upload_blue_data(blue1, blue2, headers, id, signid, mails, config):
     if response.status_code == 200:
         response_data = response.json()
         if response_data.get("code") == 0:
+            print(f"{username}蓝牙打卡成功！\n")
             MsgSend(mails,f"账号- {config['username']} -蓝牙打卡成功！", f"账号- {config['username']} -蓝牙打卡成功！", config['receive'], config['sct_ftqq'])
             return 0
         else:
